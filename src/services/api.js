@@ -2,7 +2,7 @@
 // api.js
 import axios from 'axios';
 
-const API_KEY = "AIzaSyAffCQD_VMS8yg7ZLEKWRnh73xZSXB11Kk"; // Replace this with your actual API key
+const API_KEY = "Your API Key here"; // Replace this with your actual API key
 const BASE_URL = 'https://www.googleapis.com/books/v1/volumes';
 
 export const fetchBooks = async (query = 'harry potter') => {
@@ -23,6 +23,7 @@ export const fetchBooks = async (query = 'harry potter') => {
   const data = await response.json();
   return data.items || [];
 };
+
 
 
 
