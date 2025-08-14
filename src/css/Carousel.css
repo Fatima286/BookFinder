@@ -1,0 +1,14 @@
+.carousel-container {
+  width: 1000px;
+      /* controls width */
+  margin: 20px auto;   /* centers horizontally */
+    border-radius: 20px;   /* makes the corners curved */
+  overflow: hidden;   
+    border-width: 5px;         /* thickness of the border */
+  border-style: solid;       /* solid, dashed, dotted, etc. */
+  border-color: #000000;  
+}
+.carousel-container img {
+  height: 500px;       /* fixed height */
+  object-fit: cover;   /* crops nicely without distortion */
+}

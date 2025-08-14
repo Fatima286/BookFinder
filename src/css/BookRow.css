@@ -1,0 +1,54 @@
+
+.book-row-wrapper {
+  position: relative;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.book-row-wrapper h2 {
+  margin: 10px 0;
+  padding-left: 10px;
+  font-size: 1.5em;
+}
+
+.book-row-scroll {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 16px;
+  padding: 10px;
+  scrollbar-width: none; /* hide scrollbar in Firefox */
+}
+
+.book-row-scroll::-webkit-scrollbar {
+  display: none; /* hide scrollbar in Chrome/Safari */
+}
+
+.scroll-buttons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+  pointer-events: none; /* allow clicks to pass through, except buttons */
+}
+
+.scroll-btn {
+  pointer-events: auto; /* re-enable clicks on button */
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: white;
+  font-size: 24px;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 50%;
+  margin: 0 10px;
+  transition: background 0.3s;
+}
+
+.scroll-btn:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
