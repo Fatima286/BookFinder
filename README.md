@@ -1,6 +1,6 @@
-# 🌊 BookSurf
+#🔍BookFinder
 
-BookSurf is a React.js web application that allows users to search, explore, and save their favorite books. It integrates with the Google Books API to fetch real-time book data and provides a clean, responsive UI for a smooth reading discovery experience.
+BookFinder is a React.js web application that allows users to search, explore, and save their favorite books. It integrates with the Google Books API to fetch real-time book data and provides a clean, responsive UI for a smooth reading discovery experience.
 
 ---
 
